@@ -19,7 +19,7 @@ public class Auto {
 	}
 	String verificarIntegridad() {
 		boolean integro = true;
-		int correcto = registro;
+		int correcto = this.registro;
 		if(motor.registro!=correcto) {
 			integro=false;
 		}
