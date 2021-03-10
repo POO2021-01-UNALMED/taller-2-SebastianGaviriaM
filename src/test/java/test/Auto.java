@@ -11,11 +11,11 @@ public class Auto {
 	int cantidadAsientos() {
 		int cantidad = 0;
 		for(int i = 0; i < asientos.length; i++){ 
-			if(asientos[i].getClass().getSimpleName()=="Asiento"){
+			if(asientos[i]!=null){
 				cantidad++;
 			}
 		}
-		return 2;
+		return cantidad;
 	}
 	String verificarIntegridad() {
 		boolean integro = true;
