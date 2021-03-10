@@ -28,7 +28,7 @@ public class Auto {
 				integro=false;
 			}
 		}
-		if(integro){
+		if(integro==true){
 			return "Auto original";
 		}
 		else {
