@@ -15,7 +15,7 @@ public class Auto {
 				cantidad++;
 			}
 		}
-		return cantidad;
+		return 2;
 	}
 	String verificarIntegridad() {
 		boolean integro = true;
